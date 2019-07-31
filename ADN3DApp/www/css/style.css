@@ -2,20 +2,32 @@
 .asd {
 	text-align: center;
 	color: red;
-	font-size: 50px;
+	font-size: 30px;
 	font-family: algaerian;
-	background-color: #ccd9ff; 
+	background-color: silver; 
 	opacity: 0.4;
 }
+.txx{
+  color:white;
+  text-align: center;
+}
 .one {
-	 text-align: center;
+   text-align: center;
+}
+.ones {
+   text-align: center;
+   height: 300px;
+   width: 600px;
 }
 .fond {
 	background-color: #ccd9ff; 
 	opacity: 0.4;
 }
 ion-view {
-	background-image: url(http://www.hdfondos.eu/preview/get_photo/772654/1920/1080);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-image: url(http://k44.kn3.net/F0409A05B.jpg);
 }
 .dna {
   background:blue;
@@ -367,11 +379,11 @@ ion-view {
   margin: auto;
 }
 .text{
-  color: black;
+  color: white;
   text-align: center;
   font-family:Bauhaus 93;
-  font-size: 18px;
-  background-color: white;
+  font-size: 15px;
+  background-color: black;
   opacity: 0.8;
 }
 .container {
@@ -556,6 +568,12 @@ div.time{
 }
 .imm {
   height: 250px;
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+.immm {
+  height: 350px;
   width: 250px;
   display: block;
   margin: auto;
